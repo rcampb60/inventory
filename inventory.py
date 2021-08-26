@@ -31,7 +31,7 @@ class inventory(product): # inventory class is passed the product class as objec
         computer_subtotal = computer.price * computer.quantity
         grand_total = mouse_subtotal + keyboard_subtotal + mat_subtotal + monitor_subtotal + computer_subtotal # sum up grand total
 
-        print(f"""
+        __str__(f"""
 Mice value: £{mouse_subtotal}
 Keyboard value: £{keyboard_subtotal}
 Mouse Mat value: £{mat_subtotal}
